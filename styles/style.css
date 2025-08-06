@@ -90,3 +90,63 @@
     text-align: center;
     padding:15px 0px 48px;
 }
+
+
+/* event banner section styles */
+#banner{
+    height: 600px;
+    background-image: linear-gradient(90.00deg, rgb(7, 2, 17),
+    rgba(7, 2, 17, 0) 100%), url(../images/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width:1320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 120px auto;
+    border-radius: 16px;
+
+}
+
+#banner .banner-contain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 126px;
+}
+
+
+.banner-content .title{
+    color: #FFFFFF;
+    font-family: "Merriweather", serif;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 11%;
+    text-align: left;
+}
+
+.banner-content .description{
+    color: rgba(255, 255, 255, 0.8);
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+    padding: 20px 0;
+
+}
+
+.banner-content a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;
+    
+
+}
+
+.banner-contain .image{
+    max-width:349px ;
+}
