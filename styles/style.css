@@ -9,14 +9,13 @@
 }
 
 /* hero section styles */
-#hero{
+#hero {
     height: 600px;
-    background-image: linear-gradient(180.00deg, rgb(7, 2, 17)
-            ,rgba(7, 2, 17, 0) 100%),
-            url(../images/Banner\ Image.png);
+    background-image: linear-gradient(180.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%),
+        url(../images/Banner\ Image.png);
     background-position: center;
     background-repeat: no-repeat;
-    display: flex; 
+    display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -25,7 +24,7 @@
     max-width: 1320px;
 }
 
-#hero .sub-title{
+#hero .sub-title {
     font-family: "Merriweather", serif;
     color: #FFFFFF;
     font-size: 20px;
@@ -36,7 +35,7 @@
     opacity: 0.7;
 }
 
-#hero .title{
+#hero .title {
     font-family: "Merriweather", serif;
     color: #FFFFFF;
     font-size: 72px;
@@ -47,8 +46,8 @@
 }
 
 /* celebration section styles */
-#celebrate{
-    display: flex; 
+#celebrate {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -58,7 +57,7 @@
     max-width: 1320px
 }
 
-#celebrate .title{
+#celebrate .title {
     color: #FF0000;
     font-family: "Inter", sans-serif;
     font-size: 88px;
@@ -66,11 +65,11 @@
     line-height: 107px;
     letter-spacing: 0%;
     text-align: center;
-    padding-bottom:48px;
-    margin-top:120px ;
+    padding-bottom: 48px;
+    margin-top: 120px;
 }
 
-#celebrate .description{
+#celebrate .description {
     color: rgb(255, 0, 0);
     font-family: "Inter", sans-serif;
     font-size: 24px;
@@ -80,7 +79,7 @@
     text-align: center;
 }
 
-#celebrate .sub-title{
+#celebrate .sub-title {
     color: rgb(7, 2, 17);
     font-family: "Inter", sans-serif;
     font-size: 48px;
@@ -88,18 +87,18 @@
     line-height: 58px;
     letter-spacing: 0%;
     text-align: center;
-    padding:15px 0px 48px;
+    padding: 15px 0px 48px;
 }
 
 
 /* event banner section styles */
-#banner{
+#banner {
     height: 600px;
     background-image: linear-gradient(90.00deg, rgb(7, 2, 17),
-    rgba(7, 2, 17, 0) 100%), url(../images/Vectorrr.png);
+            rgba(7, 2, 17, 0) 100%), url(../images/Vectorrr.png);
     background-repeat: no-repeat;
     background-position: center;
-    max-width:1320px;
+    max-width: 1320px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -108,7 +107,7 @@
 
 }
 
-#banner .banner-contain{
+#banner .banner-contain {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -116,7 +115,7 @@
 }
 
 
-.banner-content .title{
+.banner-content .title {
     color: #FFFFFF;
     font-family: "Merriweather", serif;
     font-size: 64px;
@@ -126,7 +125,7 @@
     text-align: left;
 }
 
-.banner-content .description{
+.banner-content .description {
     color: rgba(255, 255, 255, 0.8);
     font-family: "Inter", sans-serif;
     font-size: 18px;
@@ -139,7 +138,7 @@
 
 }
 
-.banner-content a{
+.banner-content a {
     text-transform: uppercase;
     text-decoration: none;
     color: #FFFFFF;
@@ -147,13 +146,13 @@
     font-weight: 600;
 }
 
-.banner-contain .image{
-    max-width:349px ;
+.banner-contain .image {
+    max-width: 349px;
 }
 
 /* location info section style */
 
-#location{
+#location {
     height: 482px;
     background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),
             rgba(255, 0, 0, 0) 100%);
@@ -161,25 +160,25 @@
     max-width: 1320px;
     display: flex;
     justify-content: center;
-    align-items: center;  
-    margin: 120px auto;
+    align-items: center;
+    margin: 0 auto;
 }
 
 
-#location .info p{
+#location .info p {
     text-align: center;
     font-family: "Inter", sans-serif;
     font-size: 32px;
     font-weight: 600;
     line-height: 56px;
-    color:#070211;
+    color: #070211;
 }
 
-#location .info span{
+#location .info span {
     color: #FF0000;
 }
 
-#location .info-btn a{
+#location .info-btn a {
     color: #FFFFFF;
     font-size: 20px;
     font-weight: 600;
@@ -189,7 +188,7 @@
     text-transform: uppercase;
 }
 
-#location .info .info-btn{
+#location .info .info-btn {
     border: none;
     border-radius: 8px;
     background: #FF0000;
@@ -200,31 +199,32 @@
 
 /* coming offers section style */
 
-#coming-offer{
+#coming-offer {
     background: rgba(255, 255, 255, 1);
     border-radius: 16px;
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     max-width: 1320px;
     height: 733px;
-    margin: 120px auto;
+    margin: 0 auto;
 }
 
-#coming-offer .offers-container{
+#coming-offer .offers-container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 
-#coming-offer .best-offer .sub-title{
+#coming-offer .best-offer .sub-title {
     color: rgba(255, 0, 0, 1);
     font-family: "Inter", sans-serif;
     font-size: 24px;
     font-weight: 500;
 }
 
-#coming-offer .best-offer .title{
+#coming-offer .best-offer .title {
     color: rgba(7, 2, 17, 1);
     font-family: "Merriweather", serif;
     font-size: 48px;
@@ -235,7 +235,7 @@
     margin: 16px 0 22px 0;
 }
 
-#coming-offer .best-offer .description{
+#coming-offer .best-offer .description {
     color: rgba(7, 2, 17, 0.6);
     font-family: "Inter", sans-serif;
     font-size: 20px;
@@ -244,22 +244,23 @@
     text-align: left;
 }
 
-#coming-offer .image{
+#coming-offer .image {
     border: 15px solid rgba(255, 0, 0, 1);
     border-radius: 50%;
-   padding: 25px; 
-   margin: 0 100px;
+    padding: 25px;
+    margin: 0 100px;
 }
 
-#coming-offer .next-year .title{
+#coming-offer .next-year .title {
     color: rgba(255, 0, 0, 1);
     font-family: "Inter", sans-serif;
     font-size: 48px;
     font-weight: 700;
     text-align: left;
+    margin-top: 25px;
 }
 
-#coming-offer .next-year .description{
+#coming-offer .next-year .description {
     color: rgba(7, 2, 17, 0.6);
     font-family: "Inter", sans-serif;
     font-size: 20px;
@@ -269,3 +270,78 @@
     text-align: left;
     margin: 16px 0 22px 0;
 }
+
+/* holidays sale section */
+
+#holidays-sale {
+    background: rgba(255, 255, 255, 1);
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1320px;
+    margin: 0 auto ;
+}
+
+#holidays-sale .holiday-content {
+    text-align: center;
+}
+
+#holidays-sale .sub-title {
+    color: rgba(7, 2, 17, 1);
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+
+
+}
+
+#holidays-sale .title {
+    font-family: "Merriweather", serif;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 91px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 30px;
+}
+
+#holidays-sale .description {
+    color: rgba(7, 2, 17, 0.6);
+
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+
+.images-container {
+    padding-top: 150px;
+    height: 666px;
+    
+}
+
+.discount-banner {
+    position: relative;
+}
+
+
+.gift-box {
+    z-index: 1;
+    right: -100px;
+}
+
+.discount {
+    top: -450px;
+    right: -970px;
+    width: 300px;
+}
+
+.rectangle {
+    top: -420px;
+
+}
+
